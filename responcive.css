@@ -1,0 +1,51 @@
+@media screen and (max-width: 576px) {
+
+    nav,
+    .influencer {
+        flex-direction: column;
+    }
+
+    header {
+        padding: 1rem;
+        max-width: 144rem;
+        height: 330.6rem;
+        margin: auto;
+    }
+
+    nav li {
+        margin-right: 1rem;
+    }
+
+    .influencer-container {
+        width: 100%;
+        padding: 2rem;
+    }
+
+    .influencer-img img {
+        width: 100%;
+    }
+
+    .camera-bg-img {
+        margin-top: 3rem;
+    }
+}
+
+    @media screen and (min-width: 576px) and (max-width: 990px) {
+
+        nav,
+        .influencer {
+            flex-direction: column;
+        }
+
+        header {
+            padding: 3rem;
+        }
+
+        nav li {
+            margin-right: 2rem;
+        }
+
+        .influencer-container {
+            padding: 4rem;
+        }
+    }
