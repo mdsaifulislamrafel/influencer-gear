@@ -1,21 +1,19 @@
 @media screen and (max-width: 576px) {
 
     nav,
-    .influencer {
+    .influencer, .card-container {
         flex-direction: column;
     }
 
-    header {
+    header , .collection-section{
         padding: 1rem;
-        
-        margin: auto;
     }
 
     nav li {
         margin-right: 1rem;
     }
 
-    .influencer-container {
+    .influencer-container{
         width: 100%;
         padding: 2rem;
     }
@@ -32,11 +30,15 @@
         gap: 2rem;
         padding: 4rem;
     }
-    .sponsor img {
+    .sponsor img , .card-img{
         width: 100%;
     }
     .sponsor-section {
         padding: 0;
+    }
+    .see-more {
+        margin: 0;
+        padding-top: 2rem;
     }
 
 }
@@ -47,8 +49,9 @@
     @media screen and (min-width: 576px) and (max-width: 990px) {
 
         nav,
-        .influencer {
+        .influencer, .card-container {
             flex-direction: column;
+            padding: 1rem;
         }
 
         header {
@@ -59,7 +62,7 @@
             margin-right: 2rem;
         }
 
-        .influencer-container {
+        .influencer-container, .collection-section {
             padding: 4rem;
         }
         .sponsor {
@@ -67,10 +70,13 @@
             gap: 2rem;
             padding: 3rem;
         }
-        .sponsor img {
+        .sponsor img , .card-img{
             width: 100%;
         }
         .sponsor-section {
+            padding: 0;
+        }
+        .collection-section {
             padding: 0;
         }
     }
