@@ -7,8 +7,7 @@
 
     header {
         padding: 1rem;
-        max-width: 144rem;
-        height: 330.6rem;
+        
         margin: auto;
     }
 
@@ -28,7 +27,22 @@
     .camera-bg-img {
         margin-top: 3rem;
     }
+    .sponsor {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 2rem;
+        padding: 4rem;
+    }
+    .sponsor img {
+        width: 100%;
+    }
+    .sponsor-section {
+        padding: 0;
+    }
+
 }
+
+
+
 
     @media screen and (min-width: 576px) and (max-width: 990px) {
 
@@ -47,5 +61,16 @@
 
         .influencer-container {
             padding: 4rem;
+        }
+        .sponsor {
+            grid-template-columns: repeat(7, 1fr);
+            gap: 2rem;
+            padding: 3rem;
+        }
+        .sponsor img {
+            width: 100%;
+        }
+        .sponsor-section {
+            padding: 0;
         }
     }
