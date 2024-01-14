@@ -1,7 +1,7 @@
 @media screen and (max-width: 576px) {
 
     nav,
-    .influencer, .card-container {
+    .influencer, .card-container, .product-container {
         flex-direction: column;
     }
 
@@ -33,12 +33,19 @@
     .sponsor img , .card-img{
         width: 100%;
     }
-    .sponsor-section {
+    .sponsor-section, .product-section {
         padding: 0;
     }
     .see-more {
         margin: 0;
         padding-top: 2rem;
+    }
+    .product-container {
+        width: 100%;
+        padding: 2rem;
+    }
+    .product-img {
+        width: 100%;
     }
 
 }
@@ -49,7 +56,7 @@
     @media screen and (min-width: 576px) and (max-width: 990px) {
 
         nav,
-        .influencer, .card-container {
+        .influencer, .card-container, .product-container {
             flex-direction: column;
             padding: 1rem;
         }
@@ -79,4 +86,12 @@
         .collection-section {
             padding: 0;
         }
+        .product-container {
+            width: 100%;
+        }
+        .product-section {
+            padding: 2rem;
+            text-align: center;
+        }
+        
     }

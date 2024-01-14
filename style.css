@@ -198,3 +198,32 @@ nav li a:hover,
 }
 
 /* Popular Collection section styles end */
+
+/* products section styles start */
+.product-section {
+    padding: 7rem 16.5rem;
+}
+
+.product-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 12rem;
+}
+
+.product-title {
+    color: #0A0826;
+    font-size: 3.8rem;
+    font-weight: 700;
+    line-height: 6rem;
+    margin-bottom: 1rem;
+}
+
+.product-description {
+    color: #6C6C6C;
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 2.8rem;
+    margin-bottom: 2rem;
+}
+
+/* products section styles end */
